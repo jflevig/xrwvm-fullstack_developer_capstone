@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+        <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    
+    <!-- Jumbotron / Hero -->
+    <div class="container my-5">
+    <div class="p-5 text-center bg-light rounded-4 shadow">
+        <h1 class="display-4 fw-bold">Contact Us 🚗</h1>
+        <p class="lead">
+        Looking for your next ride or have questions? Our team is here to help you find the perfect car.
+        </p>
+        <hr class="my-4">
+        <p>
+        Reach out to us anytime — whether it's about pricing, financing, or availability.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#contact-form">Get in Touch</a>
+    </div>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="container mb-5">
+    <div class="row text-center">
+        
+        <div class="col-md-4">
+        <h5>📍 Address</h5>
+        <p>123 Main Street<br>Los Angeles, CA</p>
+        </div>
+
+        <div class="col-md-4">
+        <h5>📞 Phone</h5>
+        <p>+1 (555) 123-4567</p>
+        </div>
+
+        <div class="col-md-4">
+        <h5>✉️ Email</h5>
+        <p>contact@dealerships.com</p>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container mb-5" id="contact-form">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+        
+        <h2 class="mb-4 text-center">Send us a message</h2>
+
+        <form>
+            <div class="mb-3">
+            <label class="form-label">Full Name</label>
+            <input type="text" class="form-control" placeholder="John Doe">
+            </div>
+
+            <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control" placeholder="name@example.com">
+            </div>
+
+            <div class="mb-3">
+            <label class="form-label">Message</label>
+            <textarea class="form-control" rows="4" placeholder="I'm interested in..."></textarea>
+            </div>
+
+            <div class="text-center">
+            <button type="submit" class="btn btn-success">Send Message</button>
+            </div>
+        </form>
+
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>
